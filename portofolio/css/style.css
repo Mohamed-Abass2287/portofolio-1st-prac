@@ -1,0 +1,95 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  .container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  /* Header Styles */
+  header {
+    background: #333;
+    color: whitesmoke;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #77aaff 3px solid;
+  }
+  
+  header h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 36px;
+  }
+  
+  header p {
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  .profile-image {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #77aaff;
+  }
+  
+  /* About Section */
+  #about {
+    padding: 20px 0;
+    background: #f4f4f4;
+  }
+  
+  #about h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Projects Section */
+  #projects {
+    padding: 20px 0;
+  }
+  
+  .project {
+    background: #e2e2e2;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  .project h3 {
+    margin-top: 0;
+  }
+  
+  /* Contact Section */
+  #contact {
+    padding: 20px 0;
+    background: #333;
+    color: #fff;
+  }
+  
+  #contact a {
+    color: #77aaff;
+    text-decoration: none;
+  }
+  
+  #contact a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Footer */
+  footer {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+  }
