@@ -1,11 +1,12 @@
-/* General Styles */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     line-height: 1.6;
     color: #333;
-  }
+    
+  
   
   .container {
     width: 80%;
@@ -13,39 +14,40 @@ body {
     overflow: hidden;
   }
   
-  /* Header Styles */
+  
   header {
-    background: #333;
+    background: #e2a128;
     color: whitesmoke;
     padding-top: 30px;
     min-height: 70px;
-    border-bottom: #77aaff 3px solid;
+    border-bottom: #0a5be7 3px solid;
   }
   
   header h1 {
-    text-align: center;
+    text-align: left;
     margin: 0;
     font-size: 36px;
+    
   }
   
   header p {
-    text-align: center;
+    text-align: left;
     font-size: 18px;
   }
   
   .profile-image {
-    display: block;
+    display: left;
     margin: 0 auto;
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    border: 3px solid #77aaff;
+    border: 3px solid #0957df;
   }
   
   /* About Section */
   #about {
     padding: 20px 0;
-    background: #f4f4f4;
+    background: #e2e2e7;
   }
   
   #about h2 {
@@ -53,13 +55,13 @@ body {
     margin-bottom: 20px;
   }
   
-  /* Projects Section */
+
   #projects {
     padding: 20px 0;
   }
   
   .project {
-    background: #e2e2e2;
+    background: #e2e2e7;
     padding: 15px;
     margin-bottom: 10px;
     border-radius: 5px;
@@ -69,15 +71,15 @@ body {
     margin-top: 0;
   }
   
-  /* Contact Section */
+  
   #contact {
     padding: 20px 0;
-    background: #333;
-    color: #fff;
+    background: #e2a128;
+    color: black;
   }
   
   #contact a {
-    color: #77aaff;
+    color: black;
     text-decoration: none;
   }
   
